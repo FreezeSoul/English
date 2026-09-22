@@ -1,239 +1,273 @@
-# 🌐 全网最全英语单词词库 (Anki/Quizlet 等背词工具兼容)
+<div align="center">
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/lilinji/english-word-library)
-[![IELTS](https://img.shields.io/badge/Focus-IELTS-orange.svg)](#-雅思资源专项-ielts-focus)
-[![TOEFL](https://img.shields.io/badge/Focus-TOEFL-blue.svg)](#-托福资源-toefl)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  <img src="./Gemini_Generated_Image_49mvq549mvq549mv.png" alt="English Vocabulary Vault Banner" width="100%" style="border-radius: 12px; max-width: 860px;" />
 
-![](Gemini_Generated_Image_49mvq549mvq549mv.png)
-> 🚀 **本项目致力于提供最全面、最系统、最优质的英语单词词库，涵盖从小学到博士、从雅思托福到商务英语的所有核心内容。所有词库均包含中文释义与标准国际音标 (IPA)，可轻松导入各类主流背单词应用。**
+  # 🌐 Ultimate English Vocabulary Vault
 
----
+  <p align="center">
+    <strong>960+ Curated Lexicons • Standard IPA Phonetics • Authoritative Definitions • Seamless Anki / Quizlet / Excel Integration</strong>
+  </p>
 
-## 📖 项目简介
+  <p align="center">
+    <b>🇬🇧 English</b> &nbsp;•&nbsp;
+    <a href="./README_zh.md">🇨🇳 简体中文</a> &nbsp;•&nbsp;
+    <a href="./README_ja.md">🇯🇵 日本語</a> &nbsp;•&nbsp;
+    <a href="./README_es.md">🇪🇸 Español</a>
+  </p>
 
-本仓库是一个精心整理的英语词库资源集合，旨在为不同学习阶段和备考目标的英语学习者提供一站式词汇解决方案。无论你是正在备战中考、高考的学生，还是准备雅思、托福、GRE 的留学党，亦或是希望提升职场英语的白领，都能在这里找到适合自己的词汇资源。
+  <p align="center">
+    <a href="https://github.com/lilinji/English/stargazers"><img src="https://img.shields.io/github/stars/lilinji/English?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+    <a href="https://github.com/lilinji/English/network/members"><img src="https://img.shields.io/github/forks/lilinji/English?style=flat-square&logo=github&color=orange" alt="GitHub Forks"/></a>
+    <a href="https://github.com/lilinji/English/issues"><img src="https://img.shields.io/github/issues/lilinji/English?style=flat-square&color=blue" alt="GitHub Issues"/></a>
+    <a href="https://github.com/lilinji/English/pulls"><img src="https://img.shields.io/github/issues-pr/lilinji/English?style=flat-square&color=brightgreen" alt="Pull Requests"/></a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square" alt="License"/></a>
+    <img src="https://img.shields.io/badge/Total%20Books-960%2B-purple?style=flat-square" alt="Total Books"/>
+    <img src="https://img.shields.io/badge/Compatible-Anki%20%7C%20Quizlet%20%7C%20Excel-success?style=flat-square" alt="Compatibility"/>
+  </p>
 
-### 🎯 适用人群
+  <p align="center">
+    <sub>🚀 An all-in-one, structured, open-source English vocabulary repository for language learners worldwide. From foundational K-12 to Doctoral research, and from IELTS/TOEFL to software engineering, everything is ready out of the box.</sub>
+  </p>
 
-| 人群        | 推荐资源                  |
-| ----------- | ------------------------- |
-| 🎒 中小学生 | 全国各大教材版本同步词库  |
-| 🎓 大学生   | 四六级、专四专八核心词汇  |
-| 📚 考研党   | 考研深度专题（190+ 词书） |
-| ✈️ 留学党   | 雅思、托福、GRE 高频词汇  |
-| 💼 职场人士 | 商务英语、国际英语        |
-
----
-
-## 🌟 仓库特色
-
-| 特色              | 描述                                                                                |
-| ----------------- | ----------------------------------------------------------------------------------- |
-| **📦 海量覆盖**   | 包含上千本词书，覆盖全国各大主流教材版本。                                          |
-| **🗂️ 结构化管理** | 按教育阶段与应用场景精细分类，目录清晰，方便快速定位所需资源。                      |
-| **✨ 高质量内容** | 所有词库均配有精准中文释义与国际音标 (IPA)，助力听说读写全方位提升。                |
-| **🔗 高度兼容**   | 采用通用 `.xlsx` 格式存储，可轻松导入 Anki、Quizlet、欧路词典、有道词典等主流工具。 |
-| **🆓 完全免费**   | 所有资源均为社区贡献，免费开放，无任何付费门槛。                                    |
+</div>
 
 ---
 
-## 📂 词库目录结构
+## 📑 Table of Contents
 
-```text
-📁 含音标（新版）
-├── 📂 1.全国各大教材版本中小学同步/    (328 本词书)
-│   ├── 人教版 / 外研版 / 北师大版 / 苏教版 / 冀教版 ...
-│   └── 涵盖小学至高中各年级同步词汇
-│
-├── 📂 2.中考/                          (9 本词书)
-├── 📂 2.高考/                          (47 本词书)
-│
-├── 📂 3.大学英语/                      (69 本词书)
-├── 📂 3.专四/                          (15 本词书)
-├── 📂 3.四级/                          (30 本词书)
-│
-├── 📂 4.六级/                          (46 本词书)
-├── 📂 4.专八/                          (14 本词书)
-│
-├── 📂 5.考研/                          (190 本词书) 🔥 热门
-│   ├── 恋练有词 / 考研红宝书 / 新东方 ...
-│   └── 覆盖考研英语一、英语二核心词汇
-│
-├── 📂 6.研究生/                        (9 本词书)
-├── 📂 6.考博/                          (6 本词书)
-│
-├── 📂 7.托福/                          (21 本词书) 🏆 重点
-├── 📂 7.雅思/                          (30 本词书) 🏆 重点
-│
-├── 📂 8.商务英语/                      (4 本词书)
-├── 📂 8.国际英语/                      (12 本词书)
-├── 📂 8.新世纪英专/                    (12 本词书)
-├── 📂 8.新概念英语/                    (16 本词书 + 108 篇三四册课文精讲讲义)
-│   ├── 词汇表（1-4册新版 + 青少版全套）
-│   └── 新概念课文精讲与笔记（第三册60课 + 第四册48课 Docx/PDF）
-└── 📂 9.其他（更多）/                  (93 本词书)
-    ├── SAT / GRE / GMAT ...
-    └── 各类专业词汇、词根词缀等
-├── 📂 9.扇贝英语（IT）                 (18 本词书)
+- [📖 Vision & Overview](#-vision--overview)
+- [🌟 Key Highlights & Advantages](#-key-highlights--advantages)
+- [🎯 Learning Pathways](#-learning-pathways)
+- [📂 Full Library Taxonomy (960+ Books)](#-full-library-taxonomy-960-books)
+- [🏆 Featured Subject Focus](#-featured-subject-focus)
+  - [🎓 IELTS Prep Suite (28 Books)](#-ielts-prep-suite-28-books)
+  - [✈️ TOEFL iBT Focus (21 Books)](#️-toefl-ibt-focus-21-books)
+  - [📘 New Concept English (Books 1-4 + 108 Master Lecture Notes)](#-new-concept-english-books-1-4--108-master-lecture-notes)
+  - [💻 IT, Computer Science & Developer English](#-it-computer-science--developer-english)
+- [🛠️ Tool Integration & Import Guides](#️-tool-integration--import-guides)
+  - [📱 Importing into Anki (Spaced Repetition)](#-importing-into-anki-spaced-repetition)
+  - [📝 Importing into Quizlet](#-importing-into-quizlet)
+  - [📖 Importing into Mobile Dictionary Apps (Eudic / Youdao)](#-importing-into-mobile-dictionary-apps-eudic--youdao)
+- [📋 Data Schema & Standardization](#-data-schema--standardization)
+- [🗺️ Project Roadmap](#️-project-roadmap)
+- [🤝 Contributing & Community Guidelines](#-contributing--community-guidelines)
+- [⭐ Star History](#-star-history)
+- [📄 License & Legal Disclaimer](#-license--legal-disclaimer)
+
+---
+
+## 📖 Vision & Overview
+
+When preparing for major language proficiency examinations or daily vocabulary acquisition, finding well-formatted, complete, and typo-free word lists is often surprisingly difficult. Many resources online suffer from corrupted encodings, missing phonetics, fragmented files, or inconsistent column layouts.
+
+**English Vocabulary Vault** is an open-source initiative designed to provide a unified, clean, and comprehensive collection of English vocabulary datasets:
+- **Massive Scope**: Over **960+ distinct vocabulary books** covering K-12 schooling, college exams (CET-4/6, TEM-4/8), postgraduate & PhD entrances, overseas examinations (IELTS, TOEFL, GRE, GMAT, SAT), and specialized industry English.
+- **High Quality**: Standardized in `.xlsx` and `.txt` formats with International Phonetic Alphabet (IPA) transcriptions and comprehensive contextual definitions.
+- **Ready for Anki & Flashcards**: Engineered for instant zero-hassle import into spaced repetition software (Anki, Quizlet, RemNote, Eudic).
+
+---
+
+## 🌟 Key Highlights & Advantages
+
+| Dimension | Description |
+| :--- | :--- |
+| **📦 Vast Coverage** | Over 960+ books and hundreds of thousands of word tokens categorized in one central repository. |
+| **🗂️ Structured Taxonomy** | Hierarchically partitioned by educational stage, exam type, and domain for effortless navigation. |
+| **✨ Standard IPA Phonetics** | Strictly formatted using standard International Phonetic Alphabet characters to prevent garbled text. |
+| **🔄 Alphabetical & Random Orders** | Major exam lists are supplied in both alphabetical and randomized (乱序) orders to bypass positional recall bias. |
+| **📑 Comprehensive Lecture Notes** | Beyond pure word lists, the New Concept English module contains **108 in-depth lecture notes (Docx/PDF)**. |
+| **🆓 100% Free & Open Source** | Completely free for students, teachers, and developers around the globe under Creative Commons license. |
+
+---
+
+## 🎯 Learning Pathways
+
+```mermaid
+flowchart TD
+    K12["🎒 K-12 Foundational Stage"] -->|Curriculum & Exams| A1["Primary/High School Sync (328 Books)<br/>Entrance Exams (56 Books)"]
+    College["🎓 Higher Education Stage"] -->|General & Major English| A2["College English (69 Books)<br/>CET 4/6 (76 Books) / TEM 4/8 (29 Books)"]
+    Postgrad["📚 Postgraduate & Academic"] -->|Deep Academic English| A3["Postgraduate Kaoyan (190 Books)<br/>Doctoral PhD Lists (6 Books)"]
+    Abroad["✈️ Overseas & Study Abroad"] -->|Global Benchmarks| A4["IELTS Academic (28 Books) / TOEFL (21 Books)<br/>GRE / GMAT / SAT (93 Books)"]
+    Pro["💼 Professional & Technical"] -->|Applied Industry Domains| A5["Business English BEC (4 Books)<br/>IT & Software Engineering (18 Books)<br/>New Concept English 1-4 (16 Books)"]
 ```
 
 ---
 
-## 🎓 雅思资源专项 (IELTS Focus)
+## 📂 Full Library Taxonomy (960+ Books)
 
-针对雅思考生，我们特别整理了业内公认的备考神书，全方位覆盖**听、说、读、写**四个维度。
+Click on any directory link below to browse and download vocabulary sets directly:
 
-### 📚 核心词汇书推荐
+| # | Directory & Category | Book Count | Description & Scope |
+| :-: | :--- | :-: | :--- |
+| **01** | [1.全国各大教材版本中小学同步](./1.全国各大教材版本中小学同步/) | **328 Books** | Synchronized primary, middle, and high school textbooks (PEP, FLTRP, BNUP, Oxford, etc.) |
+| **02** | [2.中考](./2.中考/) | **9 Books** | High school entrance exam (Zhongkao) syllabus, core collocations, and pocket flashcards |
+| **03** | [2.高考](./2.高考/) | **47 Books** | National College Entrance Exam (Gaokao) 3500 words, high-frequency sprint sets, and randomized lists |
+| **04** | [3.大学英语](./3.大学英语/) | **69 Books** | Comprehensive College English, New Horizon, Intensive College Reading Series |
+| **05** | [3.四级](./3.四级/) | **30 Books** | College English Test Band 4 (CET-4) frequency lists, syllabus flashcards, and pocket reviews |
+| **06** | [3.专四](./3.专四/) | **15 Books** | Test for English Majors Band 4 (TEM-4) syllabus, contextual memory, and literature vocabulary |
+| **07** | [4.六级](./4.六级/) | **46 Books** | College English Test Band 6 (CET-6) advanced lexicon, sprint lists, and categorized flashcards |
+| **08** | [4.专八](./4.专八/) | **14 Books** | Test for English Majors Band 8 (TEM-8) advanced literary and syntactic vocabulary |
+| **09** | [5.考研](./5.考研/) | **190 Books** 🔥 | Postgraduate Master's Entrance Exam core, Red Book, frequency tiers, and past exam testbanks |
+| **10** | [6.研究生](./6.研究生/) | **9 Books** | Graduate English, public master's English, and advanced academic communicative reading |
+| **11** | [6.考博](./6.考博/) | **6 Books** | Doctoral Candidate (PhD) 10,000 vocabulary handbooks and weekly schedules |
+| **12** | [7.雅思](./7.雅思/) | **28 Books** 🏆 | IELTS categorized topic lexicon, Wang Lu 807 series (L/S/R/W), Cambridge 4-17 real test vocabulary |
+| **13** | [7.托福](./7.托福/) | **21 Books** 🏆 | TOEFL iBT topic categorization, 21-Day Breakthrough, randomized memory sets |
+| **14** | [8.商务英语](./8.商务英语/) | **4 Books** | Cambridge Business English Certificate (BEC) Preliminary, Vantage, and Higher |
+| **15** | [8.国际英语](./8.国际英语/) | **12 Books** | Cambridge Interchange (Intro-Level 3), Longman Side by Side (Books 1-4) |
+| **16** | [8.新世纪英专](./8.新世纪英专/) | **12 Books** | Integrated Courses for English Majors (Books 1-8 and supplements) |
+| **17** | [8.新概念英语](./8.新概念英语/) | **16 Books + Notes** | New Concept English Books 1-4 & Junior editions, **plus 108 Master Lecture Notes (Docx/PDF)** |
+| **18** | [9.扇贝英语（IT）](./9.扇贝英语（IT）/) | **18 Books** 💻 | Computer Science English, Python/Java developer vocabulary, and NAWL academic lists |
+| **19** | [9.其他（更多）](./9.其他（更多）/) | **93 Books** | SAT, GRE Red Book, GMAT, Latin & Greek roots and affixes, and advanced journalistic vocabulary |
 
-| 分类                 | 资源                                      | 特点                             |
-| -------------------- | ----------------------------------------- | -------------------------------- |
-| **📘 场景分类**      | `IELTS词汇词以类记.xlsx`                  | 按话题分类，场景化记忆，最高效！ |
-| **📙 王陆 807 系列** | `王陆807雅思词汇听力/口语/阅读/写作.xlsx` | 雅思考生必备，高频机经核心词     |
-| **📗 真题词汇**      | `雅思真词汇（第3-6版）.xlsx`              | 深度剖析剑桥雅思 4-17 真题库     |
-| **📒 高频速成**      | `7天搞定雅思高频核心词.xlsx`              | 适合考前冲刺与快速扫盲           |
-| **📕 词汇胜经**      | `雅思词汇胜经.xlsx`                       | 系统全面，适合长期备考           |
-| **📓 剑桥精典**      | `剑桥雅思词汇精典.xlsx`                   | 权威剑桥官方词汇整理             |
+---
 
-### 🔤 词汇特色分类
+## 🏆 Featured Subject Focus
 
-- **乱序版**：打破字母顺序，更符合人类大脑记忆规律，避免产生位置依赖。
-- **必备词组**：不仅仅是单个单词，更注重地道短语表达与搭配。
-- **分级词汇**：如《雅思分级词汇 21 天进阶》，循序渐进，由易到难。
+### 🎓 IELTS Prep Suite (28 Books)
 
-### 📊 雅思词汇学习建议
+Tailored for IELTS candidates targeting Band 7.0+ across Listening, Speaking, Reading, and Writing:
+
+| Category | Resource Title | Key Strength |
+| :--- | :--- | :--- |
+| **📘 Topic Classification** | `IELTS词汇词以类记.xlsx` | Grouped by environmental, educational, technological, and cultural themes |
+| **📙 807 Core Corpus** | `王陆807雅思词汇听力/口语/阅读/写作.xlsx` | The gold standard for listening dictation and spelling accuracy |
+| **📗 Past Real Tests** | `雅思真词汇（第3-6版）.xlsx` | Derived directly from Cambridge IELTS 4–17 official test banks |
+| **⚡ Rapid Sprint** | `7天搞定雅思高频核心词.xlsx` | High-frequency essentials for the final 1–2 weeks before test day |
 
 ```mermaid
 graph LR
-    A[基础阶段] --> B[核心阶段]
-    B --> C[冲刺阶段]
-    A --> |雅思标准词汇3800| B
-    B --> |王陆807系列| C
-    C --> |7天高频核心词| D[考试]
+    Step1["Foundation<br/>(IELTS 3800 Core)"] --> Step2["Dictation Speed<br/>(Wang Lu 807 Corpus)"]
+    Step2 --> Step3["Topic Immersion<br/>(Thematic Lexicon)"]
+    Step3 --> Step4["Past Paper Mastery<br/>(Cambridge 4-17 Real Words)"]
+    Step4 --> Target(["🎯 Band 7.5+ Achieved"])
 ```
 
 ---
 
-## ✈️ 托福资源 (TOEFL)
+### ✈️ TOEFL iBT Focus (21 Books)
 
-| 资源                        | 描述                     |
-| --------------------------- | ------------------------ |
-| `TOEFL词汇词以类记.xlsx`    | 按场景分类的托福核心词汇 |
-| `托福词汇乱序版.xlsx`       | 打破字母顺序的记忆法     |
-| `托福核心词汇21天突破.xlsx` | 短期冲刺利器             |
-
----
-
-## 📘 新概念英语专项 (New Concept English)
-
-针对系统提升英语综合能力的学习者，我们整合了从入门到精通的完整学习链条，包含词汇与名师讲义双核心：
-
-| 模块 | 资源内容 | 说明 |
-| :--- | :--- | :--- |
-| **📗 词汇库 (Excel)** | `新概念英语第一至四册（新版）.xlsx`<br>`新概念英语青少版入门级至5B (12本).xlsx` | 全册配套词库，含音标与中文释义，可一键导入 Anki/欧路 |
-| **📝 第三册课文精讲 (Docx)** | `新概念3册完整笔记 Lesson 01-60 (60篇)` | 涵盖词汇辨析、发音规律、句型结构及仿写练习（另附全册 PDF 合订版） |
-| **📝 第四册课文讲义 (Docx)** | `新概念4册完整笔记/讲义 Lesson 01-48 (48篇)` | 涵盖散文精读、长难句拆解与高级写作赏析 |
-
-> 📌 详细课文目录索引与配套精读指南请参阅 [8.新概念英语/README.md](file:///d:/English/8.新概念英语/README.md)。
+Designed for the interdisciplinary academic scenarios in TOEFL reading and listening:
+- `TOEFL词汇词以类记.xlsx`: Cross-disciplinary vocabulary spanning astronomy, geology, biology, anthropology, and fine arts.
+- `托福核心词汇21天突破.xlsx`: 21-day structured breakthrough plan for high-frequency academic verbs and descriptors.
+- `托福词汇乱序版.xlsx`: Randomized sorting to eliminate positional mnemonic dependency.
 
 ---
 
-## 🛠️ 如何使用
+### 📘 New Concept English (Books 1-4 + 108 Master Lecture Notes)
 
-本词库采用通用的 `.xlsx` (Excel) 格式存储，可以方便地导入各类背单词工具。
+> Detailed lesson breakdown and syllabus guide: [8.新概念英语/README.md](./8.新概念英语/README.md)
 
-### 📱 导入 Anki (推荐)
-
-1. **下载 Anki**：前往 [Anki 官网](https://apps.ankiweb.net/) 下载桌面版。
-2. **转换格式**：将 `.xlsx` 文件另存为 `.csv` 格式（UTF-8 编码）。
-3. **导入文件**：打开 Anki，选择 `文件` → `导入`，选择 CSV 文件。
-4. **映射字段**：确保"单词"、"音标"、"释义"字段对应正确。
-5. **开始学习**：使用 Anki 的间隔重复算法高效记忆！
-
-### 📝 导入 Quizlet
-
-1. **访问 Quizlet**：前往 [Quizlet 官网](https://quizlet.com/)。
-2. **创建学习集**：点击"创建"，选择"从 Excel 导入"。
-3. **粘贴数据**：复制 Excel 中的数据并粘贴。
-4. **保存学习集**：确认导入后保存即可。
-
-### 📖 导入其他工具
-
-本词库兼容以下工具（通过 CSV/Excel 导入）：
-
-- 欧路词典
-- 有道词典
-- 扇贝单词
-- 百词斩
-- 不背单词
+This repository hosts an exhaustive digital companion for *New Concept English*:
+1. **Vocabulary Sheets (`.xlsx`)**:
+   - Classic Series: Books 1 to 4 with IPA phonetics and clear definitions.
+   - Junior Edition: Starter A/B to 5A/5B (12 full decks).
+2. **Master In-depth Lecture Notes (`.docx` & `.pdf`)**:
+   - **Book 3 (Developing Skills)**: Lessons 01–60 complete detailed notes, including a combined **47.4 MB PDF compilation**.
+   - **Book 4 (Fluency in English)**: Lessons 01–48 complete analytical guides on British prose style, syntactic structures, and rhetoric.
 
 ---
 
-## 📋 词库格式说明
+### 💻 IT, Computer Science & Developer English
 
-每个词库文件 (`.xlsx`) 通常包含以下字段：
-
-| 列名              | 说明           | 示例                       |
-| ----------------- | -------------- | -------------------------- |
-| **单词**          | 英文单词原形   | `abandon`                  |
-| **音标**          | 国际音标 (IPA) | `/əˈbændən/`               |
-| **释义**          | 中文释义       | `v. 放弃；抛弃`            |
-| **例句** _(可选)_ | 例句或用法说明 | `He abandoned his family.` |
+Curated specifically for software engineers, CS majors, and tech professionals working in international environments:
+- `计算机专业英语词汇.xls`: Operating systems, computer networks, algorithms, and distributed system terminology.
+- `Python词汇（基础版）.xls` & `JAVA程序员英语通关单词.xls`: Programming language keywords, syntax conventions, and common API terms.
+- `雅思NAWL学术词汇.txt`: The New Academic Word List (NAWL) for reading and authoring technical whitepapers and research publications.
 
 ---
 
-## 🤝 贡献与反馈
+## 🛠️ Tool Integration & Import Guides
 
-我们欢迎社区的贡献和反馈！如果你有更好的词库资源，或者发现了任何错误，请通过以下方式参与：
+All files use standard `.xlsx` or `.txt` encoding, making them universally compatible across flashcard platforms.
 
-### 📥 如何贡献
+### 📱 Importing into Anki (Spaced Repetition)
 
-1. **Fork 本仓库**
-2. **添加或修正词库文件**
-3. **提交 Pull Request**
+1. Open any `.xlsx` file in Excel or LibreOffice, click **File** -> **Save As**, and choose **CSV (Comma delimited) (*.csv)** with **UTF-8** encoding.
+2. Open desktop [Anki](https://apps.ankiweb.net/), click **File** -> **Import**.
+3. Select your exported `.csv` file. In the configuration window:
+   - **Card Type**: Choose `Basic` or your customized flashcard template.
+   - **Field Mapping**:
+     - Column 1 -> `Front` (English word)
+     - Column 2 -> `Phonetic` (IPA transcription)
+     - Column 3 -> `Back` (Meaning / Definition)
+4. Click **Import**. Anki will automatically apply SuperMemo/SM-2 spaced repetition intervals!
 
-### 🔍 我们正在寻找
+### 📝 Importing into Quizlet
 
-- [ ] 《剑桥雅思 18/19》最新真题词汇整理
-- [ ] GRE 3000 词汇完整版
-- [ ] 各专业领域词汇（医学、法律、金融等）
-- [ ] 词根词缀系统整理
+1. Log in to [Quizlet](https://quizlet.com/) and click **Create** -> **Study Set**.
+2. Click **Import from Word, Excel, Google Docs, etc.**.
+3. Copy two columns from the Excel file (e.g. Word and Definition) using `Ctrl+C`.
+4. Paste into the Quizlet import textarea. Select "Tab" between term and definition, and "New line" between cards.
+5. Click **Import** to start practice games, tests, and mobile flashcards.
 
-### 🐛 反馈问题
+### 📖 Importing into Mobile Dictionary Apps (Eudic / Youdao)
 
-如果你发现释义或音标中存在错误，请提交 [Issue](../../issues)，我们会尽快修复。
+- **Eudic (欧路词典)**: Go to **Vocabulary Book** -> **Manage** -> **Import Words**, and select the `.xlsx` file directly.
+- **Youdao / Shanbay**: Export the word column to a single `.txt` file (one word per line) and import via the desktop client to sync seamlessly across mobile devices.
+
+---
+
+## 📋 Data Schema & Standardization
+
+To maintain consistency and reliable programmatic parsing across hundreds of decks, files adhere to the following schema:
+
+| Column Name (CN) | Field Name (EN) | Data Type | Description & Example |
+| :--- | :--- | :--- | :--- |
+| **单词** | `Word` | String | Base form of the English term/collocation (e.g., `resilience`) |
+| **音标** | `Phonetic` | String | Standard International Phonetic Alphabet (IPA) with slashes (e.g., `/rɪˈzɪliəns/`) |
+| **释义** | `Definition` | String | Part of speech followed by precise definition (e.g., `n. 恢复力；弹力；适应力`) |
+| **例句** *(Optional)* | `Sentence` | String | Authentic usage context or past exam reference sentence |
+
+---
+
+## 🗺️ Project Roadmap
+
+- [x] Complete comprehensive audit and structured indexing of 960+ vocabulary datasets
+- [x] Deeply integrate New Concept English Books 1-4 with 108 Master Lecture Notes (Docx/PDF)
+- [x] Implement enterprise-grade multilingual README documentation (EN / ZH / JA / ES)
+- [ ] **Automated Deck Builder**: Release an open-source Python script to compile `.xlsx` files into `.apkg` files automatically
+- [ ] **Quality Assurance**: Community and AI-assisted proofreading for legacy phonetic symbols and rare archaic definitions
+- [ ] **Cambridge IELTS 18 & 19 Update**: Extract and curate the latest Cambridge test vocabulary
+- [ ] **Web-based Lexicon Search**: Deploy a zero-dependency, lightning-fast GitHub Pages search tool
+
+---
+
+## 🤝 Contributing & Community Guidelines
+
+Contributions from language learners, educators, and developers worldwide are warmly welcome! Whether fixing a typo, adding missing phonetics, or contributing a new dataset:
+
+1. **Fork** this repository to your own GitHub account.
+2. **Create a branch** for your update: `git checkout -b feat/add-cambridge-19`
+3. **Commit** your changes following conventional commits: `git commit -m "docs: fix phonetic transcription in CET-4 abandon"`
+4. **Push and Open a Pull Request**. We review and merge community PRs regularly!
+5. Have ideas or found bugs? Open a [GitHub Issue](https://github.com/lilinji/English/issues).
 
 ---
 
 ## ⭐ Star History
 
-如果这个项目对你有帮助，请给我们一个 ⭐ Star！
+If this repository has empowered your English learning or exam preparation, please show your support with a **Star** ⭐!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lilinji/English&type=Date)](https://star-history.com/#lilinji/English&Date)
 
 ---
 
-## 📄 版权声明
+## 📄 License & Legal Disclaimer
 
-> ⚠️ **免责声明**
+> ⚠️ **Disclaimer**
 >
-> 本仓库资源均整理自网络公开资源，仅供个人学习交流使用，严禁用于任何商业用途。
->
-> 如有侵权，请联系删除。所有词书版权归原作者/出版社所有。
-
----
-
-## 📬 联系方式
-
-- **GitHub Issues**: [提交反馈](../../issues)
-- **Pull Requests**: [贡献代码](../../pulls)
+> 1. All vocabulary datasets and lecture notes in this repository are aggregated from publicly available learning materials on the internet and community submissions. They are provided solely for non-commercial personal study, academic research, and self-improvement.
+> 2. Trademarks, exam syllabus copyrights, and book copyrights belong to their respective authors, publishers, or testing bodies.
+> 3. Redistribution for commercial profit is strictly prohibited. If any copyright holder believes their rights are infringed, please open an Issue with proof of ownership, and we will promptly review and remove the material in accordance with relevant laws.
 
 ---
 
 <div align="center">
 
-💡 **Keep Learning, Keep Growing.**
+  💡 **Empower Your Learning Journey — One Word at a Time.**
+  
+  **Made with ❤️ by [Ringi](https://github.com/lilinji) & Community Contributors**
 
-_所有的努力都将在考场上开花结果！加油，屠鸭成功！_ 🦆
-
-**Made with ❤️ by the Community Ringi**
+  [⬆ Back to Top](#-ultimate-english-vocabulary-vault)
 
 </div>
