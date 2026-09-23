@@ -33,8 +33,25 @@
 
 ---
 
+## 📊 Visual Deck & Poster Gallery (Risograph Aesthetics)
+
+A modern digital vocabulary infrastructure designed for global English learners. Presented here in a 10-slide high-impact **Risograph Print & DIY Indie Poster** aesthetic deck (click any slide to view high-resolution vector SVG directly), with full [📥 Native Editable PPTX Deck Download Available](./assets/slides/English_Vocabulary_Vault_Risograph.pptx).
+
+| [![01 Cover · English Vocabulary Vault](./assets/slides/P01.svg)](./assets/slides/P01.svg) | [![02 The Dilemma & Mission](./assets/slides/P02.svg)](./assets/slides/P02.svg) | [![03 Core Metrics Poster](./assets/slides/P03.svg)](./assets/slides/P03.svg) |
+| :---: | :---: | :---: |
+| **01 Cover · English Vocabulary Vault** | **02 Dilemma & Mission · Digital Infra** | **03 Core Metrics · 960+ Books Matrix** |
+| [![04 Vocabulary Growth Tree](./assets/slides/P04.svg)](./assets/slides/P04.svg) | [![05 IELTS & TOEFL Focus](./assets/slides/P05.svg)](./assets/slides/P05.svg) | [![06 New Concept Suite](./assets/slides/P06.svg)](./assets/slides/P06.svg) |
+| **04 Vocabulary Growth Tree · 5 Stages** | **05 IELTS & TOEFL Academic Focus** | **06 New Concept Suite & Master Notes** |
+| [![07 Developer English Special](./assets/slides/P07.svg)](./assets/slides/P07.svg) | [![08 Software Import Guides](./assets/slides/P08.svg)](./assets/slides/P08.svg) | [![09 Roadmap & Global Community](./assets/slides/P09.svg)](./assets/slides/P09.svg) |
+| **07 Developer English · Geek Special** | **08 Software Import · Spaced Repetition** | **09 Roadmap & Global Collaboration** |
+| [![10 Closing Poster · One Word at a Time](./assets/slides/P10.svg)](./assets/slides/P10.svg) | [![11 Editable PPTX Download](./assets/slides/P11.svg)](./assets/slides/English_Vocabulary_Vault_Risograph.pptx) | [![12 Star on GitHub](./assets/slides/P12.svg)](https://github.com/lilinji/English) |
+| **10 Closing Poster · One Word at a Time** | **11 Editable PPTX · Direct Download** | **12 Star on GitHub · Community Driven** |
+
+---
+
 ## 📑 Table of Contents
 
+- [📊 Visual Deck & Poster Gallery](#-visual-deck--poster-gallery-risograph-aesthetics)
 - [📖 Vision & Overview](#-vision--overview)
 - [🌟 Key Highlights & Advantages](#-key-highlights--advantages)
 - [🎯 Learning Pathways](#-learning-pathways)

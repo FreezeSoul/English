@@ -33,8 +33,25 @@
 
 ---
 
+## 📊 词库全景图解与海报汇报 (Visual Deck & Poster Gallery)
+
+面向全球英语学习者的数字化词汇新基建，采用 **Risograph 孔版印刷工艺 + DIY 独立海报美学** 打造的全套 10 页超清矢量图示（点击单张卡片可直接在浏览器中查看超清矢量原图），支持 [📥 下载原生可编辑 PPTX 底稿](./assets/slides/English_Vocabulary_Vault_Risograph.pptx)。
+
+| [![01 封面 · 全网最全英语单词词库](./assets/slides/P01.svg)](./assets/slides/P01.svg) | [![02 痛点与使命 · 数字化词汇新基建](./assets/slides/P02.svg)](./assets/slides/P02.svg) | [![03 核心数据大字报 · 960+ 词书矩阵](./assets/slides/P03.svg)](./assets/slides/P03.svg) |
+| :---: | :---: | :---: |
+| **01 封面 · 全网最全英语单词词库** | **02 痛点与使命 · 构建新基建** | **03 硬核数据 · 960+ 词书矩阵** |
+| [![04 词库全景图谱 · 阶梯分层成长树](./assets/slides/P04.svg)](./assets/slides/P04.svg) | [![05 出国双雄 · 雅思战术与托福学科](./assets/slides/P05.svg)](./assets/slides/P05.svg) | [![06 镇馆之宝 · 新概念全套与讲义](./assets/slides/P06.svg)](./assets/slides/P06.svg) |
+| **04 阶梯分层 · 全生命周期成长树** | **05 出国双雄 · 雅思战术与托福学科** | **06 镇馆之宝 · 新概念全套与讲义** |
+| [![07 极客专属 · 计算机与程序员英语](./assets/slides/P07.svg)](./assets/slides/P07.svg) | [![08 软件生态 · 间隔记忆无缝导入](./assets/slides/P08.svg)](./assets/slides/P08.svg) | [![09 路线图 · 演进与全球社区协作](./assets/slides/P09.svg)](./assets/slides/P09.svg) |
+| **07 极客专属 · 计算机与程序员英语** | **08 软件导入 · 间隔记忆神器** | **09 路线图 · 演进与社区协作** |
+| [![10 结语致敬 · 学习征途赋能海报](./assets/slides/P10.svg)](./assets/slides/P10.svg) | [![11 演示底稿 · 下载原生 PPTX](./assets/slides/P11.svg)](./assets/slides/English_Vocabulary_Vault_Risograph.pptx) | [![12 开源共建 · 点亮 Star 支持](./assets/slides/P12.svg)](https://github.com/lilinji/English) |
+| **10 结语致敬 · One Word at a Time** | **11 演示底稿 · 下载原生 PPTX** | **12 开源共建 · 点亮 Star 支持** |
+
+---
+
 ## 📑 目录导航
 
+- [📊 词库全景图解与海报汇报 (Visual Deck)](#-词库全景图解与海报汇报-visual-deck--poster-gallery)
 - [📖 项目愿景与简介](#-项目愿景与简介)
 - [🌟 核心特色与优势](#-核心特色与优势)
 - [🎯 适用人群与学习路径](#-适用人群与学习路径)

@@ -1,9 +1,15 @@
-# Windows
+# OS
 Thumbs.db
 Desktop.ini
+.DS_Store
 
 # Office Temporary Files
 ~$*
 
+# IDE
+.vscode/
+.idea/
+
 # Git
 .git/
+
